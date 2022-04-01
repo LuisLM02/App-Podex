@@ -1,0 +1,39 @@
+@import 'variables';
+
+.fount{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+
+  div.font1{
+    background-color: red;
+    height: 45vh;
+    width: 100vw;
+  }
+  div.font2{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+  }
+  div.font3{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    background-color: white;
+    border: 20px solid black;
+    border-radius: 100%;
+    width: 40vh;
+    height: 40vh;
+  }
+}
